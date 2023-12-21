@@ -24,6 +24,18 @@ let class_marks = [89, 67, 98, 0,"absent", null, false];
 // console.log("Given array has" ,class_marks.length ,"length.");
 
 
+//   class_marks[5] = 95;   //Modifying the value of index 5
+//     console.log(class_marks);
 
+/* to check the data type of each values in array -we use type of operator */
+
+
+/* console.log(typeof class_marks[0]);
+console.log(typeof class_marks[1]);
+console.log(typeof class_marks[2]);
+console.log(typeof class_marks[3]);
+console.log(typeof class_marks[4]);
+console.log(typeof class_marks[5]);
+console.log(typeof class_marks[6]); */
 
 
