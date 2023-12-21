@@ -66,7 +66,44 @@
 // console.log("Added element in the above array: ",unshiftElement);
 // console.log("Updated array:",n);
 
-                                    
+
+
+/* delete operator - delete is a operator use to delete the particular element from the array */
+
+/* 
+let arr = [87, 45, 93, 90, 91];
+console.log(arr);
+console.log(arr.length)
+console.log("length of array:",arr.length);
+delete arr[0];
+console.log(arr);   
+console.log(arr.length)
+console.log("length of array:",arr.length); */  /******important interview Question **** - we can notice that in updated 
+                                                        array after using delete operator the length
+                                                        of the updated array is still the same.
+                                                        interviewer can ask tell me the updated length of the
+                                                        array after suing delete[0] in gien array of length 5 .
+                                                        SO the answer will be 5 only bacause delete only removes 
+                                                        the element but not delete the space it aquires.
+                                                   */
+
+
+
+
+/* Concat is used to add multiple array in one*/
+
+//example of 2 array concatenation
+// let arr1 = [1,2,3];
+// let arr2 = [4,5,6];
+// let newArray = arr1.concat(arr2);    
+// console.log("The new array is:",newArray);                                                   
+
+//example of 3 array concatenation
+// let arr1 = [1,2,3];
+// let arr2 = [4,5,6];
+// let arr3 = [7,8,9];
+// let newArray = arr1.concat(arr2,arr3);    
+// console.log("The new array is:",newArray);                                         
 
 
 
