@@ -107,5 +107,68 @@ console.log("length of array:",arr.length); */  /******important interview Quest
 
 
 
+//Sort Method - used to sort alphabeticaly elements in the existing array.
+// let arr = [95, 87, 223, 23, 56, 909, 123, 1000];
+// let sortElement = arr.sort();
+// console.log("The alphabetically sorted array is :",sortElement);
 
+
+
+// here, we can use compare operators to sort them in ascending and descending order. 
+// let compare = (a,b)=>{   ///is a function used to comapre ascending order of number it compares the 
+//     // two numbers wheather it is smaller then a or b and then printing accordingky.
+//     return a - b
+// }
+// let arr = [95, 87, 223, 23, 56, 909, 123, 1000];
+// let sortElement = arr.sort(compare);
+// console.log("The secending order sorted array is :",sortElement);
+
+
+// let compare = (a,b)=>{   // here b - a is the differnece beacuse it return the 
+//     // largest value of subtarction so that wer casn find decesdng order of aray elements.
+//     return b - a           
+// }
+// let arr = [95, 87, 223, 23, 56, 909, 123, 1000];
+// let sortElement = arr.sort(compare);
+// console.log("The secending order sorted array is :",sortElement);
+                                    
+
+
+
+// reverse operator - reversew the given array
+
+// let arr = [95, 87, 223, 23, 56, 909, 123, 1000];
+// let reverseElement = arr.reverse();
+// console.log("The reversed array is :", reverseElement);
+
+
+
+/*SPLICE AND SLICE (****Important in accordance of interview and question basis) 
+             Splice is used to add new items in the existing array.
+             Syntax*** =  splice(startNumbers[index where u want to use splice from] , DeleteCount[elements u want to delete], NUmbers to be added)
+            Slice  -SLices out the elements from the aarya and creates a new array with it .
+       It is basiucalaly the subset of the existing array and creates a new array from that subset.
+
+*/
+/* it modifies the source array and make them updated and returns it */
+// let num = [2,6,9,5,0,1];
+// num.splice(2 , 2, 1000,1001,1002, 1003);    //here 2 isindex from where to start and 2 is number of 
+//                                      // elements u wan to delete from the start index position(i.e right now 2)
+//                                      // and lastly then deletes it and and next are the elements u wan to add 
+                                        // and make an updated array.
+// console.log(num);
+
+//  let num = [2,6,9,5,0,1];
+// let deletedElements = num.splice(2 , 2, 1000,1001,1002, 1003);    
+// console.log("The deleted elements from the array after splicing is :",deletedElements);   //it returns the deleted 
+//                                                                         // elements from the array and prints it
+// console.log(typeof deletedElements);   //returns the data type of deleted array and returns it as oops.
+
+
+//SLICE - it doesn't modify the array it just creates a new array from the existing array
+// here syntax - *** (start[where to start from index], end[excluding end index it will print till then only])
+// let slicedElement = num.slice(2);
+// let slicedElement2 = num.slice(1,4);
+// console.log("The new Generated array is :",slicedElement);
+// console.log("The new Generated array from given array with satrt and end index is: ",slicedElement2);
 
