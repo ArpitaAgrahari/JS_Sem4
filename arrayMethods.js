@@ -108,5 +108,4 @@ console.log("length of array:",arr.length); */  /******important interview Quest
 
 
 
-                                    
 
