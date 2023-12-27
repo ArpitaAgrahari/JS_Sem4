@@ -12,3 +12,11 @@
 //      console.log(element*element);
 //  });
 
+//Array.from - it is used to print a statement in the form of array
+
+// let name = "Arpita"
+// let arr = Array.from(name)
+// console.log(arr);
+
+//for....of
+
