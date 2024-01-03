@@ -19,4 +19,14 @@
 // console.log(arr);
 
 //for....of
+// let num = [3,5,1,2,4]
+// for(let item of num){
+//     console.log(i)
+// }
 
+
+// // for.....in
+// let num = [3,5,1,2,4]
+// for(let i in num){
+//     console.log(num[i])
+// }
