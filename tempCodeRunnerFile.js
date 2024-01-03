@@ -1,1 +1,2 @@
-console.log(n); // simple array printing 
+let a;
+a = prompt("Enter your name");
