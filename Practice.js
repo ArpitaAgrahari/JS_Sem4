@@ -46,3 +46,11 @@
 //     return num1*num2;
 //  })
 //  console.log(factorialValue)
+
+
+/* Write a js program to generate a randome Numeber and store it in
+  a variable.The program then takes an input from the user to tell them
+   wheather the guess was correct,greter or lesser thean original number.
+   100(mark of guess) is the score of the user. the program is expected
+    to terminals once the number is guessed.Number should be between 1-100.
+*/
